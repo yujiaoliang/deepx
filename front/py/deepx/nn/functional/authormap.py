@@ -17,18 +17,30 @@ defaultauthor=dict({
         'divscalar':'miaobyte',
         'rdiv':'miaobyte',
         'rdivscalar':'miaobyte',
+        #
         'invert':'miaobyte',
-        'compare':'miaobyte',
+        #
         'min':'miaobyte',
         'minscalar':'miaobyte',
         'max':'miaobyte',
         'maxscalar':'miaobyte',
+        #
+        'less': 'miaobyte',
+        'lessscalar': 'miaobyte',
+        'greater': 'miaobyte',
+        'greaterscalar': 'miaobyte',
+        'equal': 'miaobyte',
+        'equalscalar': 'miaobyte',
+        'notequal': 'miaobyte',
+        'notequalscalar': 'miaobyte',
+        #
         'exp':'miaobyte',
         'log':'miaobyte',
         'pow':'miaobyte',
         'powscalar':'miaobyte',
         'rpowscalar':'miaobyte',
         'sqrt':'miaobyte',
+        #
         'dropout':'miaobyte',
         #changeshape
         'reshape':'miaobyte',

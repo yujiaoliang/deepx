@@ -34,6 +34,17 @@ namespace deepx
         else
             return Precision::Any;
     }   
+
+
+    template <>
+    struct to_tensor_type<PrecisionWrapper<Precision::BFloat16>> {
+        using type = nv_bfloat16;
+    };
+
+    template <>
+    struct to_tensor_type<PrecisionWrapper<Precision::Float16>> {
+        using type = half;
+    };
 }
 
 #endif // DEEPX_DTYPE_CUDA_HPP
